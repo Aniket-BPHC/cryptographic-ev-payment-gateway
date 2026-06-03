@@ -237,6 +237,3 @@ python3 -m blockchain.ledger   # Chain with reverse block + verify()
 
 ---
 
-## Team
-
-BITS F463 — Cryptography Term Project 2025-26
