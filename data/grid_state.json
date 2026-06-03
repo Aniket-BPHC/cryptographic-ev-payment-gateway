@@ -1,0 +1,94 @@
+{
+  "franchises": {
+    "A03708B0B3D0F456": {
+      "name": "TataPower-Hyd-01",
+      "provider": "TATA",
+      "zone": "TATA-Z01",
+      "password_hash": "ca560f633b065a91717fb204f4483afabf753a4df1365a717e27cb0d111caa27",
+      "balance": 250.0,
+      "created": 1776265286.9294806
+    },
+    "4358D06DB2759CC5": {
+      "name": "Adani-Hyd-02",
+      "provider": "ADANI",
+      "zone": "ADANI-Z02",
+      "password_hash": "430f6d89a0847c76b0c02ebf70244a91637b5addeeda17b40245c8976a01dfce",
+      "balance": 0.0,
+      "created": 1776265286.9396024
+    }
+  },
+  "users": {
+    "D0BD14994BC53691": {
+      "name": "Alice",
+      "provider": "TATA",
+      "zone": "TATA-Z01",
+      "pin_salt": "86ed53728bbf3a2ab3913e9d678250e9",
+      "pin_hash": "6d1e4a8c12cf793d87b96f511688a08ecca205bb91c57ee2f0ac20ab7dee4cb3",
+      "mobile": "9990000001",
+      "vmid": "4A63919D28218A3F7217",
+      "balance": 750.0,
+      "created": 1776265286.9718556
+    },
+    "F9B8039030CDBDFC": {
+      "name": "Bob",
+      "provider": "ADANI",
+      "zone": "ADANI-Z02",
+      "pin_salt": "b1666d299e340ad744767dd240eb0de2",
+      "pin_hash": "db85a70de1882b456f638999682c85d4ff200e3d7a7071fe88807ca7c7e8078b",
+      "mobile": "9990000002",
+      "vmid": "A9C7258136586C3B990A",
+      "balance": 50.0,
+      "created": 1776265286.9890692
+    }
+  },
+  "chain": [
+    {
+      "index": 0,
+      "tx_id": "GENESIS",
+      "uid": "GENESIS",
+      "fid": "GENESIS",
+      "amount": 0.0,
+      "energy_kwh": 0.0,
+      "timestamp": 0.0,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "dispute_flag": false,
+      "reverses": null
+    },
+    {
+      "index": 1,
+      "tx_id": "b6354caf40671b0e3001085afc143513d98aac2e725eedb5b24e261c7cdaaaba",
+      "uid": "D0BD14994BC53691",
+      "fid": "A03708B0B3D0F456",
+      "amount": 250.0,
+      "energy_kwh": 12.5,
+      "timestamp": 1776265287.0552254,
+      "previous_hash": "4d62453afa9dfc75ed444982fb35e91cdb5f4ceac137c03aa752921c9607e52a",
+      "dispute_flag": false,
+      "reverses": null
+    },
+    {
+      "index": 2,
+      "tx_id": "95ddec1d9c82c70bf39e069d4c0f38a3f60729228b9ac4ec2fda77e93325ecbd",
+      "uid": "D0BD14994BC53691",
+      "fid": "A03708B0B3D0F456",
+      "amount": 75.0,
+      "energy_kwh": 3.0,
+      "timestamp": 1776265287.4625285,
+      "previous_hash": "e1c836a07a7f848b3fec8a284567b5ef47f07af57800f6c2e9bc2598dfc5df0e",
+      "dispute_flag": false,
+      "reverses": null
+    },
+    {
+      "index": 3,
+      "tx_id": "7719cdd1ad425db9791017ccb181238c7e2e846b4c0c69607f181546ffe87233",
+      "uid": "D0BD14994BC53691",
+      "fid": "A03708B0B3D0F456",
+      "amount": -75.0,
+      "energy_kwh": -3.0,
+      "timestamp": 1776265287.6844015,
+      "previous_hash": "cf1830d4a1e372221d36073544621002cc0aedee82fcb8259d34264e80f79e7e",
+      "dispute_flag": true,
+      "reverses": "95ddec1d9c82c70bf39e069d4c0f38a3f60729228b9ac4ec2fda77e93325ecbd"
+    }
+  ]
+}
