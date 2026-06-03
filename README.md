@@ -235,5 +235,3 @@ python3 -m crypto.quantum      # RSA keygen + Shor factorization
 python3 -m blockchain.ledger   # Chain with reverse block + verify()
 ```
 
----
-
