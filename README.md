@@ -1,4 +1,4 @@
-# Secure Centralized EV Charging Payment Gateway
+# Secure EV Charging Payment Gateway
 ### Cryptography Term Project (BITS F463) — 2025-26
 
 A simulation of a secure EV charging payment system combining:
